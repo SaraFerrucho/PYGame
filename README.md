@@ -1,29 +1,22 @@
 # Space Shooter
 
 Space Shooter es un juego 2D desarrollado con Python y la librería PyGame.
-
 El jugador controla una nave en la parte inferior de la pantalla y debe disparar a los enemigos que descienden desde arriba. El objetivo es sobrevivir el mayor tiempo posible y obtener la mayor puntuación.
 
----
-
 ## Características
-
-- Menú principal interactivo
+- Sistema de estados (Menú, Juego, Game Over)
+- Fondo animado con estrellas
+- Interfaz estética con paneles y sombras
 - Sistema de puntaje
 - Sistema de vidas
-- Enemigos dinámicos
-- Disparos del jugador
+- Generación dinámica de enemigos
 - Detección de colisiones
-- Pantalla de Game Over con opción de reinicio o regreso al menú
-- Funciones personalizadas
-
----
+- Reinicio y retorno al menú principal
 
 ## Controles
 
-- Flecha izquierda → Mover a la izquierda
-- Flecha derecha → Mover a la derecha
-- Barra espaciadora → Disparar
-- ENTER → Iniciar o reiniciar partida
-- M → Volver al menú principal
-- ESC → Salir del juego
+- ← / → : Mover nave
+- ESPACIO : Disparar
+- ENTER : Iniciar / Reiniciar
+- M : Volver al menú
+- ESC : Salir del juego
